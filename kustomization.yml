@@ -5,5 +5,6 @@ secretGenerator:
   literals:
   - password=redhat
 resources:
-  - mysql-deployment.yml
-  - wordpress-deployment.yml
+  - mysql-statefulsets.yaml
+  - wordpress-mysql.yaml
+  - wordpress.yaml
